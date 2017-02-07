@@ -72,4 +72,16 @@ class StrTest extends TestCase
 
         $this->assertEquals('foo foo foo', $replaced);
     }
+
+    /**
+     * Test replacement of parts of text, using a multiple search strings and objects
+     */
+    public function test_replace_multiple_string_with_objects()
+    {
+        $str = new Str('foo bar baz');
+
+        $replaced = $str->replace([new Str('bar'), 'baz'], 'foo');
+
+        $this->assertEquals('foo foo foo', $replaced);
+    }
 }
