@@ -2,3 +2,4 @@
 composer.lock
 phpunit.xml
 /coverage/
+.php_cs.cache
