@@ -1,0 +1,8 @@
+{
+    "name": "phpol/string",
+    "description": "PHP Object Library String Component",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
